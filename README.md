@@ -1,8 +1,8 @@
 # BookInventory1
 
-<h3>Nama  : Salsa Dian Sikahita</h3>
-<h3>Kelas : XI TKJ 1</h3>
-<h3>No    : 33</h3>
+<h4>Nama  : Salsa Dian Sikahita</h4>
+<h4>Kelas : XI TKJ 1</h4>
+<h4>No    : 33</h4>
 
 Aplikasi ini merupakan aplikasi yang menyediakan informasi tentang data buku, baik buku umum, novel, dan lain-lain.
 
@@ -25,3 +25,10 @@ Fitur Aplikasi:
 2. Menginputkan data buku
 3. Mencari data buku
 4. Menghapus data buku yang telah ada maupun yang baru dibuat
+
+Hasil Screenshoot:
+<br>[1] https://github.com/sikahita/BookInventory1/blob/master/Screenshot%20Home.png
+<br>[2] https://github.com/sikahita/BookInventory1/blob/master/Screenshot%20Detail.png
+<br>[3] https://github.com/sikahita/BookInventory1/blob/master/Screenshot%20Search.png
+<br>[4] https://github.com/sikahita/BookInventory1/blob/master/Screenshot%20New.png
+<br>[5] https://github.com/sikahita/BookInventory1/blob/master/Screenshot%20Delete.png
