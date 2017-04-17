@@ -1,7 +1,9 @@
 # BookInventory1
 
 Nama  : Salsa Dian Sikahita
+
 Kelas : XI TKJ 1
+
 No    : 33
 
 Aplikasi ini merupakan aplikasi yang menyediakan informasi tentang data buku, baik buku umum, novel, dan lain-lain.
