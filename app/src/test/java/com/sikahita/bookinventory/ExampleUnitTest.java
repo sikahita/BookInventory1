@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory;
+package com.sikahita.bookinventory;
 
 import org.junit.Test;
 

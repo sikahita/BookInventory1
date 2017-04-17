@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory.adapter;
+package com.sikahita.bookinventory.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,13 +9,14 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
+import com.sikahita.bookinventory.R;
+import com.sikahita.bookinventory.model.Book;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import id.sch.smktelkom_mlg.bookinventory.R;
-import id.sch.smktelkom_mlg.bookinventory.model.Book;
 
 public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.MyViewHolder> implements Filterable {
     private List<Book> books;

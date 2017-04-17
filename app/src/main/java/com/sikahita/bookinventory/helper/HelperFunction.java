@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory.helper;
+package com.sikahita.bookinventory.helper;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Created by jessica.susanto on 08/08/2016.
+ * Created by Salsa Dian Sikahita on 16/04/2017.
  */
 public class HelperFunction {
     public interface ClickListener {

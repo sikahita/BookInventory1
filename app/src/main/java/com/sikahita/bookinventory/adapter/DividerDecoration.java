@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory.adapter;
+package com.sikahita.bookinventory.adapter;
 
 import android.content.Context;
 import android.content.res.TypedArray;

@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory.activity;
+package com.sikahita.bookinventory.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.sikahita.bookinventory.R;
+import com.sikahita.bookinventory.model.Book;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import id.sch.smktelkom_mlg.bookinventory.R;
-import id.sch.smktelkom_mlg.bookinventory.model.Book;
 
 public class BookFormActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)

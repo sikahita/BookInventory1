@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory;
+package com.sikahita.bookinventory;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -18,16 +18,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.sikahita.bookinventory.activity.BookFormActivity;
+import com.sikahita.bookinventory.adapter.BooksAdapter;
+import com.sikahita.bookinventory.adapter.DividerDecoration;
+import com.sikahita.bookinventory.helper.HelperFunction;
+import com.sikahita.bookinventory.model.Book;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import id.sch.smktelkom_mlg.bookinventory.activity.BookFormActivity;
-import id.sch.smktelkom_mlg.bookinventory.adapter.BooksAdapter;
-import id.sch.smktelkom_mlg.bookinventory.adapter.DividerDecoration;
-import id.sch.smktelkom_mlg.bookinventory.helper.HelperFunction;
-import id.sch.smktelkom_mlg.bookinventory.model.Book;
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
     public int TO_FORM = 1;
@@ -158,6 +159,17 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         bookList.add(book);
 
         book = new Book("9780439136365", "Harry Potter and the Prisoner of Azkaban", "J.K. Rowling", 2001, "Fantasy, Thriller, Mystery", "This is some synopsis", R.drawable.hp_azkaban);
+        bookList.add(book);
+
+        book = new Book("9780439136764", "Seperti Hujan Yang Jatuh Ke Bumi", "Boy Candra", 2016, "Drama", "Aku pernah belajar merelakanmu berkali-kali. Melepasmu pergi dengan cinta yang lain. Membiarkan kesempatan memilikim hilang untukku. Sebab, kamu berhak bahagia; meski sesungguhnya aku tidak bahagia dengan keputusan itu. Ketidak-beranianku mengikatmu memberi ruang bagi orang asing yang mendekatimu.\n" +
+                "\n" +
+                "Kupikir hidup akan baik-baik saja. Semua harus berjalan seperti sediakala. Kamu dengan seseorang yang memilihmu. Aku dengan hati baru yang mencoba tumbuh di hidupku. Kuberikan hatiku pada seseorang yang lain. Kubiarkan dia menggantikanmu. Namun, aku keliru. Melupakanmu ternyata tidak pernah semudah itu.", R.drawable.hp_azkaban);
+        bookList.add(book);
+
+        book = new Book("9780439190213", "Trilogi Jingga dan Senja", "Esti Kinasih", 2015, "Fantasy, Drama", "Berawal dari Ari – anak paling bermasalah dan berkuasa di SMA Airlangga. Terlambat ketika upacara sekolah. Kemudian, tanpa sengaja ia berbaris di depan Tari dan seolah-olah melindungi Tari dari panasnya matahari. semua yang melihat hal itu merasa ada sesuatu yang tidak beres antara keduanya. Sejak Ari tahu bahwa namanya dan Tari mirip, ia pun mati-matian untuk mendapatkan Tari. Tak peduli apapun. Ia akan berusaha menjadikan Tari sebagai pacarnya. Sedangkan Tari tak ingin menjadi pacar Ari yang notabene berandalan.", R.drawable.hp_azkaban);
+        bookList.add(book);
+
+        book = new Book("9789791227780", "Perahu Kertas", "Dewi Lestari “Dee”", 2009, "Fiction, Drama", "Perahu Kertas mengisahkan pasang surut hubungan dua anak manusia, yaitu Kugy (Maudy Ayunda) dan Keenan (Adipati Dolken). Kugy adalah seorang gadis tomboy, periang, dan yang percaya bahwa dirinya adalah agen Dewa Neptunus. Kugy selalu memiliki \"ritual\" unik, yaitu menulis setiap curahan hatinya ke selembar kertas, yang lalu dibuatnya menjadi perahu untuk kemudian dihanyutkan ke air. Meskipun sekilas dia gadis periang yang slenge'an, namun dia memiliki pandangan hidup yang cenderung filosofis.", R.drawable.star_wars);
         bookList.add(book);
 
         mAdapter.notifyDataSetChanged();

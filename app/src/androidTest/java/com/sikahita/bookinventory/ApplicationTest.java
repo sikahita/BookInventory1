@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory;
+package com.sikahita.bookinventory;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.bookinventory.model;
+package com.sikahita.bookinventory.model;
 
 import java.io.Serializable;
 
